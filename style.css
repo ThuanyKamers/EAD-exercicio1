@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #171a3a;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sobre-mim, .galeria {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.sobre-mim p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.galeria ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.galeria li {
+    flex: 1;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #6f6f6f;
+    color: white;
+    font-size: 0.9em;
+}
